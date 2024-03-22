@@ -393,7 +393,7 @@ def pregunta_09():
                     conteo_claves[nombre_clave] = 1
 
     # Convertir el diccionario en una lista de tuplas y ordenarla alfabéticamente por la clave
-    conteo_claves_ordenado = sorted(conteo_claves.items())
+    conteo_claves_ordenado = dict(sorted(conteo_claves.items()))
 
     return conteo_claves_ordenado
 
